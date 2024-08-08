@@ -8,26 +8,28 @@ public class MainChallenge {
         int levelCompleted = 5;
         int bonus = 100;
 
-        calculateScore(gameOver, score, levelCompleted, bonus);
+       int highScore = calculateScore(gameOver, score, levelCompleted, bonus);
+       System.out.println("The highScore is " + highScore);
 
         score = 10000;
         levelCompleted = 8;
         bonus = 200;
 
-         calculateScore(gameOver, score, levelCompleted, bonus);
+        System.out.println("The next highScore is " +
+         calculateScore(gameOver, score, levelCompleted, bonus));
     }
 
 
 
-    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus){
+    public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus){
         // this is a method (calculateScore)
 
         int finalScore = score;
 
         if (gameOver) {
             finalScore += (levelCompleted *bonus);
-            System.out.println("Your final score was " + finalScore);
+            finalScore += 1000;
         }
-
+        return finalScore;
     }
 }
