@@ -13,17 +13,18 @@ public class MainChallenge {
             System.out.println("Your final score was " + finalScore);
         }
 
-        boolean gameOver1 = true;
-        double score1 = 10.000;
-        double levelCompleted1 = 8;
-        double bonus1 = 200;
 
-        double finalScore1 = score1;
-        if (gameOver1){
-            finalScore1 += (levelCompleted1 *bonus1);
-            System.out.println("Yeah the game is over !");
+        boolean newGameOver = true;
+        int newScore = 10000;
+        int newLevelCompleted = 8;
+        int newBonus = 200;
+
+        int newFinalScore = newScore;
+
+        if (newGameOver) {
+            newFinalScore += (newLevelCompleted * newBonus);
+            System.out.println("Your final score was " + newFinalScore);
         }
 
-        
     }
 }
