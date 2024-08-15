@@ -2,7 +2,7 @@ public class Switch {
     public static void main(String[] args) {
         // switch =  statement that allows a variable to be tested for equality against a list of values.
 
-        String day = "Friday";
+        String day = "nothing";
 
         switch (day){
             case "Sunday":
@@ -32,6 +32,8 @@ public class Switch {
             case "Saturday":
                 System.out.println("It is Saturday");
                 break;
+            default:
+                System.out.println("That is not a day!");
 
 
 
