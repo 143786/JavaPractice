@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // if statement =  performs a block of code if it's condition evaluates to be here
-        int age = 75;
+        int age = 13;
 
         if(age>= 18){
             System.out.println("You are an adult!");
@@ -9,6 +9,11 @@ public class Main {
         }
         else if (age >=75) {
             System.out.println("Ok Tabish!");
+        }
+
+        else if (age >=13) {
+            System.out.println("You are a teenager");
+
         }
         else {
             System.out.println("You are not an adult");
