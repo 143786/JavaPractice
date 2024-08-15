@@ -1,13 +1,6 @@
-import javax.swing.JOptionPane;
-
 public class Main {
     public static void main(String[] args) {
-
-        String name = JOptionPane.showInputDialog("Enter your name");
-        JOptionPane.showMessageDialog(null, "Hello "+name);
-
-
-        int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
-
+        // if statement =  performs a block of code if it's condition evaluates to be here
+        int age = 
     }
 }
