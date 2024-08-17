@@ -13,12 +13,16 @@ public class TypeCasting {
         System.out.println(doubleValue);
 */
 
-        double doubleValue = 100.56;
+        double doubleValue = 200.56;
         // Explicit Type Casting from double to int:
         int intValue = (int) doubleValue;
 
+        // Explicit Type Casting frim int to byte:
+        byte byteValue = (byte) intValue;
+
         System.out.println(doubleValue);
         System.out.println(intValue);
+        System.out.println(byteValue);
 
 
 
