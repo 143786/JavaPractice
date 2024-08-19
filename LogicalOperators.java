@@ -4,6 +4,11 @@ public class LogicalOperators {
         boolean x = true;
         boolean y = false;
 
+        // && Conditional-AND
+        // || Conditional -OR
+        // !  Conditional -NOT
+
+
         System.out.println(x && y);
         System.out.println(x || y);
         System.out.println(!x);
