@@ -17,7 +17,8 @@ public class SingleDimensionalArrays {
             marks[3] = 80;
             marks[4] = 98;
         for (int i = 0; i < marks.length; i++) {
-            
+            System.out.println(marks[i]);
+
             
         }
 
