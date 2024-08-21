@@ -20,6 +20,7 @@ public class StringManipulationsAndMethods {
         System.out.println(str3.substring(0, 5));
         System.out.println(str1.equals((str2)));
         System.out.println(str3.contains("Hello"));
+        System.out.println(str3.toLowerCase());
         System.out.println(str3.toUpperCase());
         System.out.println(str3.trim());
 
