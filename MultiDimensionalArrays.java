@@ -8,8 +8,9 @@ public class MultiDimensionalArrays {
 
         for (int i=0; i<3;i++){
             for (int j=0; j<5;j++) {
-                System.out.println(marks[i][j]);
+                System.out.print(marks[i][j] + "\t");
             }
+            System.out.println();
 
         }
     }
