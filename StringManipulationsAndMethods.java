@@ -13,5 +13,17 @@ public class StringManipulationsAndMethods {
         String str3 = str1 + str2;
         System.out.println(str3);
 
+        // String Method :
+        System.out.println(str3.length());
+        System.out.println(str3.charAt(0));
+        System.out.println(str1.concat(str2));
+        System.out.println(str3.substring(0, 5));
+        System.out.println(str1.equals((str2)));
+        System.out.println(str3.contains("Hello"));
+        System.out.println(str3.toUpperCase());
+        System.out.println(str3.trim());
+
+
+
     }
 }
