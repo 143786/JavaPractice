@@ -7,5 +7,6 @@ public class MainTimeClass {
         System.out.println(Object.toMilitary());
         Object.setTime(13, 27, 6);
         System.out.println(Object.toMilitary());
+        System.out.println(Object.toString());
     }
 }
