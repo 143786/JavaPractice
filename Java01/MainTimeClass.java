@@ -8,5 +8,12 @@ public class MainTimeClass {
         Object.setTime(13, 27, 6);
         System.out.println(Object.toMilitary());
         System.out.println(Object.toString());
+
+
+
+
     }
+
+    Object hour = 7;
+
 }
