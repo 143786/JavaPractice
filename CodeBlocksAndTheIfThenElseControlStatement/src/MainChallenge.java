@@ -72,6 +72,16 @@ public class MainChallenge {
             and effectively, allow us to reuse that code in many
             places, with the code written in just a single place.
 
+            Method in Java give us a way to write code once and then
+            reuse that code anywhere in our program.
+            A method declares executable code that can be invoked,
+            passing a fixed number of values as arguments.
+            --- THE Benefits of the Method :
+            A method is a way of reducing code duplication.
+            A method can ve executed many times with potentially
+            different results, by passing data to the method in the
+            form of arguments.
+
              */
         }
     }
