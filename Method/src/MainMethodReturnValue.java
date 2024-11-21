@@ -14,6 +14,10 @@ public class MainMethodReturnValue {
         bonus = 200;
         System.out.println("The next highScore is " +
         calculateScore(gameOver, score, levelCompleted, bonus));
+        // In an expression, we could make a call to a method that
+        // returns an int value, like I have done here.
+        // In other words, a method call that returns a value can be
+        // used in expressions, and as an expression alone.
     }
 
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
@@ -43,6 +47,8 @@ public class MainMethodReturnValue {
 
        * The lost common place for a return statement is right before
        the method's closing brace, and that's what we do here.
+
+
 
 
 
