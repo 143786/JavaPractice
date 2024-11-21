@@ -41,6 +41,17 @@ public class MainMethod03 {
  So, similar to declaring a variable with a type, we can declare
  a method to have a type.
  This declared type is placed just before the method name.
+ * In addition, a return statement is required in the code block,
+ as shown on the slide, which returns the result from the method.
+
+ An example of a method declaration with a return type is shown here.
+ in this case, the return type is an int.
+
+        public static int calculateMyAge(int dateOfBirth) {
+            return (2023 - dateOfBirth);
+            }
+ This method will return an integer when if finishes executing
+ successfully.
 
  */
 
