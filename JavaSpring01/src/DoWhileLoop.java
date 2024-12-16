@@ -22,7 +22,9 @@ public class DoWhileLoop {
  Hi 5
 
  SO if you want to get the ouput, even once even if your
- conditions is false, so you will be using do while 
+ conditions is false, so you will be using do while
+ So that's the main difference between while and do while,
+ otherwise, it works on the same way.
 
 
  */
