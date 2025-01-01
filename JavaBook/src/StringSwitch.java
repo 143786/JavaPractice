@@ -21,9 +21,12 @@ public class StringSwitch {
     }
 }
 
-
-
-
 /*
 We can also use a string to control a switch statement.
+
+Being able to use strings in a switch statement streamlines many situations. for example,
+using a string-based switch is an improvement over using the equivalent sequence of if/else
+statements. However, switching on strings can be more expensive than switching on integers.
+Therefore, it is best to switch on strings only in cases in which the controlling data is
+already in string form. In other words, don't use strings in a switch unnecessarily.
  */
