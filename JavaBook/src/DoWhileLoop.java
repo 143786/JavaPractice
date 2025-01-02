@@ -50,4 +50,14 @@ As with all of Java's loops, condition must be a Boolean expression. Here is an 
             System.out.println("tick  " + n) ;
             } while (--n > 0);
 
+
+
+      In this example, the expression (--n > 0) combines the decrement of n and the test for zero into one
+      expression. here is how it works. First, the --n statement executes, decrementing n and returning the
+      new value of n. This value is then compared with zero. If it is greater than zero, the loop continues;
+      otherwise, it terminates.
+
+      The do-while loop is especially useful when you process a menu selection, because you will usually want
+      the body of a menu loop to execute at least once. Consider the following program, which implements a very
+      simple system for Java's selection and iteration statements:
  */
