@@ -1,6 +1,5 @@
 public class SwitchChallenge {
 
-    int ayline = 2;
     public static void main(String[] args) {
 
         char charValue = 'L';
