@@ -6,6 +6,65 @@ public class Car {
     private int doors = 2;
     private boolean convertible = true ;
 
+
+    public String getMake() {
+        return make;
+        /*
+        When writing methods that use none-static fields,
+        your method can't be declared static.And getter will
+        usually return the type that the field is, so String,
+        in this case.
+
+
+         */
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getDoors() {
+        return doors;
+    }
+
+    public boolean isConvertible() {
+        return convertible;
+    }
+
+    public void setMake(String make) { // setter method
+        if (make == null) make = "Unknown";
+        String lowercaseMake = make.toLowerCase();
+        switch (lowercaseMake) {
+            case "holden", "porsche", "tesla" -> this.make = make;
+            default -> {
+                this.make = "Unsupported";
+
+            }
+
+        }
+
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setDoors(int doors) {
+        this.doors = doors;
+    }
+
+    public void setConvertible(boolean convertible) {
+        this.convertible = convertible;
+    }
+
     public void describeCar () {
 
         System.out.println(doors + "-Door " +
@@ -92,5 +151,16 @@ public class Car {
 
     SO, now, every car object I create will have these values
     by default.
+
+    ****  This :
+    This is a special keyword in Java.
+    What is really refers to is the instance that was created
+    when the object was instantiated.
+    So, this is a special reference name for object or instance,
+    which it can use to describe itself. And we can use this
+    to access fields on the class.
+
+
+
 
      */
